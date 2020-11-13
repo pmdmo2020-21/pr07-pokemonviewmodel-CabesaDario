@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simulador de Peleas Pokemon</string>
+    <string name="pikachu_name">Pikachu</string>
+    <string name="giratina_name">Giratina</string>
+    <string name="bulbasur_name">Bulbasur</string>
+    <string name="cubone_name">Cubone</string>
+    <string name="gyarados_name">Gyarados</string>
+    <string name="feebas_name">Feebas</string>
+
+
+    <string name="main_txt_start_fight">Elige a los combatientes y dale a Luchar para ver quien es el ganador</string>
+    <string name="btnFight">Luchar</string>
+    <string name="winner_text">Y el ganador es...</string>
+</resources>

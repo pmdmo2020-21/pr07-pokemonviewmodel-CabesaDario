@@ -112,8 +112,8 @@
 
     <RadioButton
         android:id="@+id/rdbttCubone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
         android:text="@string/cubone_name"
         app:layout_constraintEnd_toEndOf="@+id/imgPokemon5"
         app:layout_constraintStart_toStartOf="@+id/imgPokemon5"

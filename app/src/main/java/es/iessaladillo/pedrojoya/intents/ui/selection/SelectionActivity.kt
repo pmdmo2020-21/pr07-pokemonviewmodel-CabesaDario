@@ -71,6 +71,13 @@ class SelectionActivity : AppCompatActivity() {
         binding.rdbttBulbasaur.setOnClickListener { updateViews(binding.rdbttBulbasaur) }
         binding.rdbttCubone.setOnClickListener { updateViews(binding.rdbttCubone) }
 
+        binding.imgPokemon1.setOnClickListener { updateViews(binding.rdbttPikachu) }
+        binding.imgPokemon2.setOnClickListener { updateViews(binding.rdbttGiratina) }
+        binding.imgPokemon3.setOnClickListener { updateViews(binding.rdbttBulbasaur) }
+        binding.imgPokemon4.setOnClickListener { updateViews(binding.rdbttFeebas) }
+        binding.imgPokemon5.setOnClickListener { updateViews(binding.rdbttCubone) }
+        binding.imgPokemon6.setOnClickListener { updateViews(binding.rdbttGyarados) }
+
     }
 
     private fun updateViews(radioButton: RadioButton) {

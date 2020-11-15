@@ -47,7 +47,10 @@ class SelectionActivity : AppCompatActivity() {
         setContentView(binding.root)
         setUpViews()
         observePokemon()
-        getIntentData()
+        if(savedInstanceState == null){
+            getIntentData()
+        }
+
     }
 
     private fun setUpViews() {

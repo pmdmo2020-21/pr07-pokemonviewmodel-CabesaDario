@@ -37,7 +37,7 @@ class BattleActivity : AppCompatActivity() {
 
     private fun setupViews() {
 
-        binding.buttonFight.setOnClickListener { navigateToFightActivity() }
+        binding.buttonFight.setOnClickListener { fightViewModel.navigateToWinner(this) }
 
         binding.linearLayoutA.setOnClickListener { navigateToSelectionActivity(pokemonA, 1) }
 
@@ -61,16 +61,6 @@ class BattleActivity : AppCompatActivity() {
     }
 
 
-
-    private fun navigateToFightActivity() {
-        val winner : Pokemon = if(pokemonA.forsa >= pokemonB.forsa){
-            pokemonA
-        }else{
-            pokemonB
-        }
-        val intent = WinnerActivity.newIntent(this, winner)
-        startActivityForResult(intent, RC_POKEMON_SELECTION)
-    }
 
     private fun navigateToSelectionActivity(pokemon : Pokemon, screen : Int) {
         val intent = SelectionActivity.newIntent(this, pokemon, screen)

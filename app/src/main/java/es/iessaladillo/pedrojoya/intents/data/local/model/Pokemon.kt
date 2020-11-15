@@ -14,8 +14,7 @@ data class Pokemon (val id : Long, val idIcon : Int, val idName : Int, val forsa
         parcel.readInt(),
         parcel.readInt(),
         parcel.readInt()
-    ) {
-    }
+    )
 
     companion object : Parceler<Pokemon> {
 
